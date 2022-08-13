@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <>
       <div>
-        <nav className={isDark===true?"navbar navbar-expand-lg bg-dark navbar-dark":"navbar navbar-expand-lg bg-light"}>
+        <nav className={isDark===true?"navbar navbar-expand-lg bg-dark navbar-dark":"navbar navbar-expand-lg bg-light"} >
           <div className="container-fluid">
             <a className="navbar-brand mx-5" href="/">
               Anshuman's Blog

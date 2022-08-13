@@ -10,6 +10,7 @@ body{
   padding : 2em;
 }
 .article-wrapper {
+  margin: 5rem 0rem;
   padding: 5rem 9rem;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.406);
   border-radius: 0.6rem;
@@ -90,7 +91,7 @@ width: 25%;
 
 .code__icons {
   position: absolute;
-  top: 3px;
+  top: 1px;
   right: 18px;
   z-index: 1;
 }

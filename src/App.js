@@ -3,6 +3,7 @@ import Blog from "./Components/Blog";
 import Navbar from "./Components/Navbar";
 import { useState } from "react";
 import Home from "./Components/Home";
+import ReadingBar from "./Components/ReadingBar";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -24,11 +25,14 @@ function App() {
     // </div></BrowserRouter>
 
     <div className="App">
+      
       <Navbar ctx={ctx} />
       {/* <Blog ctx={ctx}/> */}
       {/* {blogData.data==="empty"?<Home ctx={ctx} blogData={[blogData,setBlogData]}/>:<Blog ctx={ctx} blogData={[blogData,setBlogData]}/>} */}
       {/* <Blog /> */}
+      <ReadingBar/>
       <Blog ctx={ctx}/>
+      
     </div>
   );
 }

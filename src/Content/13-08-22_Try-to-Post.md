@@ -1,12 +1,12 @@
 
 Recently I started exploring reinforcement learning. I am currently following the book, [Deep Reinforcement Learning in Action](https://www.manning.com/books/deep-reinforcement-learning-in-action). Now most courses, or books will use the [openAI Gym](https://gym.openai.com/). The issue you'll run into here would be how to render these gym environments while using Google Colab. In this blog post, I will discuss a few solutions that I came across using which you can easily render gym environments in remote servers and continue using Colab for your work.
-
+<Space p={3}/>
 ## Method 1: Render the environment using matplotlib
 
 This is the simplest method, using which we just draw, clear and re-draw images using [matplotlib](https://matplotlib.org/).
 
 So how to do this? Let's take a step by step look at this method:
-
+<Space  p={5}/>
 **Step 1: Installing Xvfb**
 
 Installing X11 system dependencies. [Xvfb](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml) is an X server that can run on machines with no display hardware and no physical input devices.

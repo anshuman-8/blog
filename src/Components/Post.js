@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react"
-import Markdown from "markdown-to-jsx"
-import Code from "./Code"
-import  ImageHandler  from "./ImageHandler"
+import { useState, useEffect } from "react";
+import Markdown from "markdown-to-jsx";
+import Code from "./Code";
+import  ImageHandler  from "./ImageHandler";
+import Space from "./Space";
 import cover from '../Assets/images/test-img.png'
 import "./blog.css";
 import Note from './Note'
@@ -56,6 +57,9 @@ const Post = (props) => {
                   props:{
                     isDark
                   }
+                },
+                Space:{
+                  component:Space
                 }
               }
             }}
