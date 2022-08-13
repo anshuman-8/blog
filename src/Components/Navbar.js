@@ -30,17 +30,12 @@ const Navbar = (props) => {
               <ul className="d-flex navbar-nav me-5 mb-2 mb-lg-0" role="search">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
-                    Active
+                    Home
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-sm-center" href="/">
-                    Link
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-sm-center" href="/">
-                    Link
+                    Contact
                   </a>
                 </li>
                 <li className="nav-item">
