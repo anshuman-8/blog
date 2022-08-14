@@ -10,8 +10,8 @@ body{
   padding : 2em;
 }
 .article-wrapper {
-  margin: 5rem 0rem;
-  padding: 5rem 9rem;
+    margin: 1rem 0rem;
+  padding: 8vh 9vw;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.406);
   border-radius: 0.6rem;
   background-color: rgb(139, 194, 194);
@@ -19,9 +19,10 @@ body{
 }
 
 .article-wrapper-dark {
-  padding: 5rem 9rem;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.406);
-  border-radius: 0.57rem;
+  margin: 1rem 0rem;
+  padding: 8vh 9vw;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.406);
+  border-radius: 0.6rem;
   background-color: rgb(1, 43, 43);
   font-size: 120%;
 }

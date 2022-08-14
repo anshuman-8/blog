@@ -6,7 +6,7 @@ const data = [
       "This is my personal blog. I write about programming, technology, and anything else that interests me.",
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
-    cover: "../Assets/images/test-img.png",
+    cover: "test-img.png",
     contentsTitle: [
       "awdsqaefdqaefef ae f",
       "ae fewf nekfjb sehbc jhde",
@@ -15,7 +15,7 @@ const data = [
       "askdhgbasjdhb ahsbd ",
       "asdc",
     ],
-    path: "../Content/test.mdx",
+    path: "13-08-22_Try-to-Post",
   },
   {
     id: "002",
@@ -24,7 +24,7 @@ const data = [
       "This is my personal blog. I write about programming, technology, and anything else that interests me.",
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
-    cover: "../Assets/images/13-08-22_Try-to-Post/test-img.png",
+    cover: "test-img.png",
     contentsTitle: [
       "awdsqaefdqaefef ae f",
       "ae fewf nekfjb sehbc jhde",
@@ -33,7 +33,7 @@ const data = [
       "askdhgbasjdhb ahsbd ",
       "asdc",
     ],
-    path: "../Content/13-08-22_Try-to-Post.mdx",
+    path: "13-08-22_Try-to-Post",
   },
   {
     id: "003",
@@ -42,14 +42,14 @@ const data = [
       "This is my personal blog. I write about programming, technology, and anything else that interests me.",
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
-    cover: "../Assets/images/13-08-22_Try-to-Post/test-img.png",
+    cover: "test-img.png",
     contentsTitle: [
       "awdsqaefdqaefef ae f",
       "ae fewf nekfjb sehbc jhde",
       "esfkjwhegbfnh shbf sjdbh cfsdx",
       
     ],
-    path: "../Content/13-08-22_Try-to-Post.mdx",
+    path: "13-08-22_Try-to-Post",
   },
   {
     id: "004",
@@ -58,7 +58,7 @@ const data = [
       "This is my personal blog. I write .",
     tags: ["abc123", "pqr123zdfcsdfs"],
     date: "2020-01-01",
-    cover: "../Assets/images/13-08-22_Try-to-Post/test-img.png",
+    cover: "test-img.png",
     contentsTitle: [
       "awdsqaefdqaefef ae f",
       "ae fewf nekfjb sehbc jhde",
@@ -67,7 +67,7 @@ const data = [
       "askdhgbasjdhb ahsbd ",
       "asdc",
     ],
-    path: "../Content/13-08-22_Try-to-Post.mdx",
+    path: "13-08-22_Try-to-Post",
   },
 ];
 

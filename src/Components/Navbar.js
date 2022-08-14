@@ -1,5 +1,6 @@
 import React from "react";
 import { SunIcon, MoonIcon } from "../Assets/icons"
+import {Link} from "react-router-dom";
 
 const Navbar = (props) => {
   const [isDark, setIsDark] = props.ctx.theme;
@@ -9,9 +10,9 @@ const Navbar = (props) => {
       <div>
         <nav className={isDark===true?"navbar navbar-expand-lg bg-dark navbar-dark":"navbar navbar-expand-lg bg-light"} >
           <div className="container-fluid">
-            <a className="navbar-brand mx-5" href="/">
+            <Link className="navbar-brand mx-5" to="/">
               Anshuman's Blog
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -29,9 +30,9 @@ const Navbar = (props) => {
               </ul>
               <ul className="d-flex navbar-nav me-5 mb-2 mb-lg-0" role="search">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-sm-center" href="/">

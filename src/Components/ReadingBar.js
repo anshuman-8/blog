@@ -46,8 +46,8 @@ import styled from "styled-components";
 const Bar = styled.div`
 position: fixed;
 margin: 8vw 19vw;
-border-radius: 15px;
-width: 6px;
+border-radius: 10px;
+width: 4px;
 z-index: 9;
 background: linear-gradient(
     0deg,
@@ -61,8 +61,8 @@ const FullBar = styled.div`
 position: fixed;
 margin: 8vw 19vw;
 height: 60%;
-border-radius: 15px;
-width: 6px;
+border-radius: 10px;
+width: 4px;
 background-color:#818f91;
 `;
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { TopIcon } from "../Assets/icons";
+// import { TopIcon } from "../Assets/icons";
 import "./blog.css";
 import Post from "./Post";
 import ReadingBar from "./ReadingBar";
@@ -12,28 +12,23 @@ const Blog = ({ctx}) => {
   console.log(post);
   const [isDark] = ctx.theme;
 
-  // const [blogData,setBlogData] = props.blogData;
-  // const post=blogData;
-  // console.log(props);
 
 
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-const mybutton = document.getElementById("myBtn");
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+// window.onscroll = function() {scrollFunction()};
+// const mybutton = document.getElementById("myBtn");
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  // document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
+// function topFunction() {
+//   // document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// } 
 
   return (
     <>

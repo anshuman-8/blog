@@ -9,11 +9,11 @@ import Note from './Note'
 
 const Post = (props) => {
     const [postContent, setPostcontent] = useState('')
-    const [isDark, setIsDark] =props.ctx.theme;
+    const [isDark] =props.ctx.theme;
     const post = props.post;
-  
+    
     useEffect(() => {
-      import(require(props.post.path)) //src/Content/13-08-22_Try-to-Post.md
+      import(`../Content/${post.path}.md`) //src/Content/13-08-22_Try-to-Post.md
         .then(res =>
           fetch(res.default)
             .then(response => response.text())
@@ -37,8 +37,6 @@ const Post = (props) => {
         <main>
           <Markdown
             options={{
-              // forceWrapper: true ,
-              // forceBlock:false,
               overrides: {
                 Code: {
                   component: Code,
