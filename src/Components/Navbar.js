@@ -6,7 +6,7 @@ const Navbar = (props) => {
   const [isDark, setIsDark] = props.ctx.theme;
 
   return (
-    <>
+    
       <div>
         <nav className={isDark===true?"navbar navbar-expand-lg bg-dark navbar-dark":"navbar navbar-expand-lg bg-light"} >
           <div className="container-fluid">
@@ -52,7 +52,7 @@ const Navbar = (props) => {
           </div>
         </nav>
       </div>
-    </>
+    
   );
 };
 

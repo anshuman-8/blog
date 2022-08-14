@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 const Blog = ({ctx}) => {
   const { id } = useParams();
   const post = data.find((item) => item.id === id);
-  console.log(post);
+  // console.log(post);
   const [isDark] = ctx.theme;
 
 

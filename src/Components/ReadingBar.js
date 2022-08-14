@@ -45,25 +45,25 @@ import styled from "styled-components";
 
 const Bar = styled.div`
 position: fixed;
-margin: 8vw 19vw;
+margin: 8vw 13vw;
 border-radius: 10px;
-width: 4px;
+width: 3px;
 z-index: 9;
 background: linear-gradient(
     0deg,
-    rgba(109, 227, 219, 1) 0%,
-    rgba(132, 115, 177, 1) 100%,
-    rgba(3, 9, 112, 1) 100%
+    rgba(27, 245, 230, 1) 0%,
+    rgba(98, 76, 158, 1) 100%,
+    rgba(1, 4, 56, 1) 100%
   );
 `;
 
 const FullBar = styled.div`
 position: fixed;
-margin: 8vw 19vw;
+margin: 8vw 13vw;
 height: 60%;
 border-radius: 10px;
-width: 4px;
-background-color:#818f91;
+width: 3px;
+background-color:#a0b4b8;
 `;
 
 

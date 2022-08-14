@@ -1,16 +1,17 @@
 import { useState, useEffect } from "react";
+import "./blog.css";
 import Markdown from "markdown-to-jsx";
 import Code from "./Code";
 import  ImageHandler  from "./ImageHandler";
 import Space from "./Space";
-import cover from '../Assets/images/test-img.png'
-import "./blog.css";
 import Note from './Note'
+import BlogHead from "./BlogHead";
 
 const Post = (props) => {
     const [postContent, setPostcontent] = useState('')
     const [isDark] =props.ctx.theme;
     const post = props.post;
+
     
     useEffect(() => {
       import(`../Content/${post.path}.md`) //src/Content/13-08-22_Try-to-Post.md
@@ -25,15 +26,7 @@ const Post = (props) => {
     <div>
        <div className={isDark?"article-wrapper-dark":"article-wrapper"}>
       <article>
-        <header>
-          <div className="article__cover">
-            <img
-              src={cover}
-              alt="my-cover"
-            />
-           
-          </div>
-        </header>
+        <BlogHead post={post} key={post.id}/>
         <main>
           <Markdown
             options={{

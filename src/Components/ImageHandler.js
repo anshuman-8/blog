@@ -14,7 +14,7 @@ const ImageHandler = ({ children, src, alt,h,w}) => {
 
   return (
     <div className="text-center">
-  <img src={image} style={style} className="rounded mx-auto d-block" alt={alt}/>
+      <img src={image} style={style} className="rounded mx-auto d-block" alt={alt}/>
     </div>
   )
 }
