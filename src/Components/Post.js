@@ -26,7 +26,7 @@ const Post = (props) => {
     <div>
        <div className={isDark?"article-wrapper-dark":"article-wrapper"}>
       <article>
-        <BlogHead post={post} key={post.id}/>
+        <BlogHead post={post} ctx={props.ctx}/>
         <main>
           <Markdown
             options={{

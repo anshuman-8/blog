@@ -7,14 +7,7 @@ const data = [
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
     cover: "test-img.png",
-    contentsTitle: [
-      "awdsqaefdqaefef ae f",
-      "ae fewf nekfjb sehbc jhde",
-      "esfkjwhegbfnh shbf sjdbh cfsdx",
-      "asdfknbasjb dhshuad fjbash d",
-      "askdhgbasjdhb ahsbd ",
-      "asdc",
-    ],
+    contentsTitle: [],
     path: "13-08-22_Try-to-Post",
   },
   {
@@ -25,14 +18,7 @@ const data = [
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
     cover: "test-img.png",
-    contentsTitle: [
-      "awdsqaefdqaefef ae f",
-      "ae fewf nekfjb sehbc jhde",
-      "esfkjwhegbfnh shbf sjdbh cfsdx",
-      "asdfknbasjb dhshuad fjbash d",
-      "askdhgbasjdhb ahsbd ",
-      "asdc",
-    ],
+    contentsTitle: [],
     path: "13-08-22_Try-to-Post",
   },
   {
@@ -43,12 +29,7 @@ const data = [
     tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
     date: "2020-01-01",
     cover: "test-img.png",
-    contentsTitle: [
-      "awdsqaefdqaefef ae f",
-      "ae fewf nekfjb sehbc jhde",
-      "esfkjwhegbfnh shbf sjdbh cfsdx",
-      
-    ],
+    contentsTitle: [],
     path: "13-08-22_Try-to-Post",
   },
   {
@@ -57,16 +38,9 @@ const data = [
     description:
       "This is my personal blog. I write .",
     tags: ["abc123", "pqr123zdfcsdfs"],
-    date: "2020-01-01",
+    date: "12 March 2022",
     cover: "test-img.png",
-    contentsTitle: [
-      "awdsqaefdqaefef ae f",
-      "ae fewf nekfjb sehbc jhde",
-      "esfkjwhegbfnh shbf sjdbh cfsdx",
-      "asdfknbasjb dhshuad fjbash d",
-      "askdhgbasjdhb ahsbd ",
-      "asdc",
-    ],
+    contentsTitle: [],
     path: "13-08-22_Try-to-Post",
   },
   // {
