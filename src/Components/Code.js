@@ -9,7 +9,7 @@ import "./blog.css";
 
 const Code = ({ children, language, code,isDark}) => {
   const [isCopied, setIsCopied] = useState(false)
-  const [isDarkC, setIsDark] = useState(isDark);
+  const [isDarkC, setIsDark] = useState(true);
 
 //   if(isDark===true){
 //     setIsDark(true);  }

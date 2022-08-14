@@ -41,10 +41,10 @@ const Navbar = (props) => {
                 <li className="nav-item">
                 <button className="btn " type="button" onClick={()=>setIsDark(!isDark)}>
             {isDark
-              ? <span title="Copied!"><MoonIcon /></span>
-              : <span title="Copy to Clipboard"><SunIcon /></span>
+              ? <span title="Dark Mode!"><MoonIcon /></span>
+              : <span title="Light Mode"><SunIcon /></span>
             }
-          </button>
+          </button>   
                 </li>
               </ul>
             </div>

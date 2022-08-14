@@ -46,15 +46,24 @@ import styled from "styled-components";
 const Bar = styled.div`
 position: fixed;
 margin: 8vw 19vw;
-border-radius: 0px 2px 0px 0px;
+border-radius: 15px;
 width: 6px;
-background-color:red;
+z-index: 9;
 background: linear-gradient(
     0deg,
     rgba(109, 227, 219, 1) 0%,
     rgba(132, 115, 177, 1) 100%,
     rgba(3, 9, 112, 1) 100%
   );
+`;
+
+const FullBar = styled.div`
+position: fixed;
+margin: 8vw 19vw;
+height: 60%;
+border-radius: 15px;
+width: 6px;
+background-color:#818f91;
 `;
 
 
@@ -66,7 +75,7 @@ useEffect(() => {
     return () => window.removeEventListener("scroll", scrollHeight);
   });
 
-const [height, setHeight] = useState(100);
+const [height, setHeight] = useState(1);
 // scroll function
 const scrollHeight = () => {
   var el = document.documentElement,
@@ -76,13 +85,13 @@ const scrollHeight = () => {
   // store percentage in state
   setHeight(percent);
 };
-    console.log(height)
+    // console.log(height)
   return (
     <div >
         <Bar style={{ height:height+"%" }}>
-            <div className='mx-2'>{Math.round(height*(5/3))+"%"}</div>
-           
+            {/* <div className='mx-3'>{Math.round(height*(5/3))+"%"}</div> */}
         </Bar>
+        <FullBar></FullBar>
     </div>
     
   )
