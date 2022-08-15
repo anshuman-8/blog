@@ -8,7 +8,7 @@ const Home = (props) => {
   const navigate = useNavigate();
   return (
     <div className="home">
-    <div className="container" >
+    <div className="container" style={{height:"100vh"}} >
       <h2 className="m-4">All my blogs</h2>
       <div className="row row-cols-1 row-cols-md-3 g-5 mb-5">
         {data.map((item) => {
@@ -16,7 +16,7 @@ const Home = (props) => {
             <div key={item.id} onClick={()=>navigate(`/blog/post/${item.id}`)} >
               <div className={ctx.theme.isDark===false?"card":" card card-dark"} style={{ width: "25rem",cursor:'pointer',textDecoration:"none" }}  >
                 <img
-                  src={require("../Assets/images/test-img.png")}
+                  src={require(`../Assets/images/${item.cover}`)}
                   className="card-image"  
                   alt="Cover"
                 />
@@ -35,6 +35,15 @@ const Home = (props) => {
         })}
       </div>
     </div>
+    <footer className="page-footer "  style={{backgroundColor:"black", height:"10vh", alignContent:"justify"}}>
+    <div className='my-4 d-flex align-items-center justify-content-center' style={{ margin: "0px auto",position:"absolute",width:"100%"}}>
+      <a href="https://anshuman-8.github.io/"><img src="https://img.icons8.com/fluency/48/000000/web.png" alt="Website"/></a>
+        <a className='mx-5' href="anshuman8swain@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail"/></a>
+        <a href="https://github.com/anshuman-8"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub"/></a>
+        <a className='mx-5' href="https://twitter.com/Anshuman_8_"><img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter"/></a>
+        <a href="https://www.linkedin.com/in/anshuman-swain-1529b2219/"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn"/></a>
+    </div>
+    </footer>
     </div>
   );
 };
