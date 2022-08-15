@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.e204a231.css",
-    "main.js": "/blog/static/js/main.34574bb7.js",
+    "main.js": "/blog/static/js/main.182f2d31.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
-    "static/js/566.ffdb44ff.chunk.js": "/blog/static/js/566.ffdb44ff.chunk.js",
+    "static/js/959.eecba3bc.chunk.js": "/blog/static/js/959.eecba3bc.chunk.js",
+    "static/js/566.4aa3b5aa.chunk.js": "/blog/static/js/566.4aa3b5aa.chunk.js",
     "static/js/787.f587e8d5.chunk.js": "/blog/static/js/787.f587e8d5.chunk.js",
+    "static/media/16Nov2021-ubuntu-dualboot.png": "/blog/static/media/16Nov2021-ubuntu-dualboot.832da43df3775a8e39f4.png",
     "static/media/test-img.png": "/blog/static/media/test-img.29d43abc740c6fb52aae.png",
-    "static/media/test.md": "/blog/static/media/test.66654afac805b0a621f1.md",
+    "static/media/test.md": "/blog/static/media/test.099cd86e1751f9e01919.md",
     "static/media/13-08-22_Try-to-Post.md": "/blog/static/media/13-08-22_Try-to-Post.0ec495b4ba4c7f520911.md",
+    "static/media/16Nov2021-ubuntu-dualboot.md": "/blog/static/media/16Nov2021-ubuntu-dualboot.0eb47aefe5ce9b18ab17.md",
     "index.html": "/blog/index.html",
     "main.e204a231.css.map": "/blog/static/css/main.e204a231.css.map",
-    "main.34574bb7.js.map": "/blog/static/js/main.34574bb7.js.map",
+    "main.182f2d31.js.map": "/blog/static/js/main.182f2d31.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e204a231.css",
-    "static/js/main.34574bb7.js"
+    "static/js/main.182f2d31.js"
   ]
 }
