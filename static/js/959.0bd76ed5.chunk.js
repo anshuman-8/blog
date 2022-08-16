@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[959],{1959:function(e,u,t){e.exports=t.p+"static/media/16Nov2021-ubuntu-dualboot.94fe8607f6aa632005e7.md"}}]);

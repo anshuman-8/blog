@@ -10,6 +10,7 @@ The requests are :
 <Space p={3}>
 
 So, that’s it here, we are now good to go.
+
    1)	First step will be to back up all your important file on your external hard disk or on any cloud storage you use. This is just a safety measure, as we are dealing with installing an operating system, things might go wrong sometimes though chances are very low of happening. Afterall this step is optional and you can skip this step if are ready to take risk of losing files.
 <Space p={2}>
    2)	So, from here go to any of your favorite browser(recommended to use Chrome) and type “download ubuntu desktop”(or [click here](https://ubuntu.com/download/desktop)) and click on Download! Make sure it is the LTS version. Usually these files are big (around 2-3GB) so may take some time.
