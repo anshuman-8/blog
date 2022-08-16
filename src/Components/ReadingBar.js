@@ -44,9 +44,9 @@ const scrollHeight = () => {
   // store percentage in state
   setHeight(percent);
 };
-    // console.log(height)
   return (
     <div >
+      {/* {window.innerHeight()<='750px'?} */}
         <Bar style={{ height:height+"%" }}>
             {/* <div className='mx-3'>{Math.round(height*(5/3))+"%"}</div> */}
         </Bar>

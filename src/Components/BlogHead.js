@@ -12,14 +12,14 @@ export default function BlogHead(props) {
 
       <div className="row justify-content-md-start mb-3 mx-2 ">
        <div className='col-1' style={{width: "4.6%"}}> <TagIcon /></div>
-      <div className='col-9'>{post.tags.map((tag)=>{return <span key={tag} className="badge bg-secondary mx-1">{tag}</span>})}</div>
+      <div className='col-10'>{post.tags.map((tag)=>{return <span key={tag} className="badge bg-secondary mx-1">{tag}</span>})}</div>
       </div>
 
       <div className="row justify-content-md-start mx-2">
         <div className='col-1' style={{width: "4.7%"}}>
         <CalenderIcon/>
         </div>
-      <div className="col-4">{post.date}</div>
+      <div className="col-7">{post.date}</div>
       </div>
      
       <img

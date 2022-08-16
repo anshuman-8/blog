@@ -33,7 +33,7 @@ const Blog = ({ctx}) => {
   return (
     <>
     <div>
-    <ReadingBar/>
+    {document.documentElement.scrollWidth>=700?<ReadingBar/>:<></>}
     <div className={isDark ? "splitscreen-dark" : "splitscreen"}>
       
       <div className={isDark ? "left-split-dark" : "left-split"}></div>

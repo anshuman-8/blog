@@ -33,17 +33,6 @@ const data = [
   //   path: "13-08-22_Try-to-Post",
   // },
   // {
-  //   id: "Trying-to-post",
-  //   title: "Trying to post",
-  //   description:
-  //     "This is my personal blog. I write about programming, technology, and anything else that interests me.",
-  //   tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
-  //   date: "2020-01-01",
-  //   cover: "test-img.png",
-  //   contentsTitle: [],
-  //   path: "13-08-22_Try-to-Post",
-  // },
-  // {
   //   id: "my-experience-and-guide-to-install-ubuntu",
   //   title: "My Experience and guide to install Ubuntu",
   //   description:
