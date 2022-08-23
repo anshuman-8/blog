@@ -3,21 +3,17 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
-/* 
-.home{
-  background-color: #444948;
-  color: white
-} */
+
 
 @media screen and (max-width: 420px) {
   body {
-     background-color: lightblue;
+     background-color: black;
      font-size:99;
   }
 
   .article-wrapper {
     margin: 1rem 2vws;
-    padding: 4vh 2vw;
+    padding: 4vh 5vw;
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.406);
   border-radius: 0.1rem;
   background-color: rgb(139, 194, 194);
@@ -82,6 +78,7 @@ body{
       /* width: 80%;
       height: 90%; */
       /* width: 25rem; */
+      margin: 0vw 5vw;
       border-radius: 0.7rem;
       background-color: rgba(227, 238, 238, 0.435);
       font-size: 99%;
@@ -92,10 +89,6 @@ body{
       border-radius: 0.4rem 0.4rem 0rem 0rem;
     }
     
-    /* .card:hover {
-      transform: scale(1.08);
-      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.406);
-    } */
     
 }
 
@@ -181,7 +174,7 @@ body{
     }
     
     .card img{
-      border-radius: 0.7rem 0.6rem 0rem 0rem;
+      border-radius: 0.7rem 0.6rem 0.5rem 0.5rem;
     }
     
     .card:hover {
@@ -203,7 +196,9 @@ body{
 .code {
   position: relative;
   font-size: 70%;
-  padding: 0px 20px;
+  /* border-radius: 0.7rem; */
+  /* padding: 0px 20px; */
+  margin: 0px 20px;
 }
 
 .code pre {

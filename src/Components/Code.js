@@ -47,10 +47,12 @@ const Code = ({ children, language, code,isDark}) => {
           </button>
         </CopyToClipboard>
       </div>
-
+           
       <SyntaxHighlighter language={language} style={isDarkC ? materialDark : materialLight}>
-        {code.length===0?children[0]:code  }
+            {code.length===0?children[0]:code  }
       </SyntaxHighlighter>
+    
+     
     </div>
   )
 }

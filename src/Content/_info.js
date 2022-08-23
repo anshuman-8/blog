@@ -1,5 +1,16 @@
 const data = [
   {
+    id: "state-management-with-ContextAPI-in-react",
+    title: "State Management with Context API in React",
+    description:
+      "Making state avilable to all components in react without prop drilling",
+    tags: ["React", "ContextAPI", "web"],
+    date: "20 Aug 2022",
+    cover: "20Aug2022-State-management-with-ContextAPI-in-React.png",
+    contentsTitle: [],
+    path: "20Aug2022-State-management-with-ContextAPI-in-React",
+  },
+  {
     id: "my-experience-and-guide-to-install-ubuntu",
     title: "My Experience and guide to install Ubuntu",
     description:
@@ -10,17 +21,6 @@ const data = [
     contentsTitle: [],
     path: "16Nov2021-ubuntu-dualboot",
   },
-  // {
-  //   id: "using-the-state-hook",
-  //   title: "Using the State Hook",
-  //   description:
-  //     "This is my personal blog. I write about programming, technology, and anything else that interests me.",
-  //   tags: ["abc123", "xyz123-sgfv", "pqr123zdfcsdfs"],
-  //   date: "2020-01-01",
-  //   cover: "test-img.png",
-  //   contentsTitle: [],
-  //   path: "13-08-22_Try-to-Post",
-  // },
   // {
   //   id: "trying-to-post-why-react-is-awesome",
   //   title: "Trying to post why react is awesome",

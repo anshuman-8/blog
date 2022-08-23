@@ -25,7 +25,7 @@ const Home = (props) => {
                   <h6 className="card-subtitle mb-2 text-muted">{item.tags.map((tag)=>{return <span key={tag} style={{margin:"3px"}}className="badge bg-secondary">{tag}</span>})}</h6>
                   <p className="card-text">{item.description}</p>
                  
-                  <Link type="button" to={`/blog/${item.id}`} key={item.id} className="btn btn-outline-dark">Read</Link>
+                  {/* <Link type="button" to={`/blog/${item.id}`} key={item.id} className="btn btn-outline-dark">Read</Link> */}
                   {/* <Link type="button" to={`/post/${item.id}`}  className="btn btn-dark btn-outline-secondary"><h6>Read</h6></Link> */}
 
                 </div> 
