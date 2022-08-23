@@ -41,7 +41,7 @@ To check its implementation lets use an example of providing user data throughou
         "color":"blue"
     }
 
-    const UserState=(props)={
+    const UserState=({children})={
     
         const [user,setUser]=setState(userData);
 
@@ -51,7 +51,7 @@ To check its implementation lets use an example of providing user data throughou
 
         return (
             <UserContext.Provider value = {{user,setUser,happyBirthDay}}>
-                {props.children}
+                {children}
             </UserContext.Provider>
             )
         }
@@ -81,7 +81,7 @@ To check its implementation lets use an example of providing user data throughou
 
 <Space  p={3}/>
 
-4. Now, to use the userState we will take an eample of `Profile` component which is deep in there children tree.
+4. Now, to use the userState we will take an example of `Profile` component which is deep in there children tree.
 
     <Code language="jsx" code='
     import React,{useContext} from "react";
@@ -101,6 +101,7 @@ To check its implementation lets use an example of providing user data throughou
     '/>
 <Space  p={1}/> 
     We have done it by using `useContext` hook available with react.
+    
     Finally, it's done and that's it for the basic implementation of Context API in React.
 
 <Space  p={4}/>
