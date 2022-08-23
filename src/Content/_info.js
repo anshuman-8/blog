@@ -3,7 +3,7 @@ const data = [
     id: "state-management-with-ContextAPI-in-react",
     title: "State Management with Context API in React",
     description:
-      "Making state avilable to all components in react without prop drilling",
+      "Make state & variables available to all components in react application without prop drilling",
     tags: ["React", "ContextAPI", "web"],
     date: "20 Aug 2022",
     cover: "20Aug2022-State-management-with-ContextAPI-in-React.png",
