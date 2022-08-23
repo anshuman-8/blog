@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.830483cd.css",
-    "main.js": "/blog/static/js/main.3a90fc28.js",
+    "main.css": "/blog/static/css/main.dceaa7c6.css",
+    "main.js": "/blog/static/js/main.8b2b6649.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
     "static/js/959.0bd76ed5.chunk.js": "/blog/static/js/959.0bd76ed5.chunk.js",
+    "static/js/497.9a7a7a19.chunk.js": "/blog/static/js/497.9a7a7a19.chunk.js",
     "static/js/566.4aa3b5aa.chunk.js": "/blog/static/js/566.4aa3b5aa.chunk.js",
     "static/js/787.f587e8d5.chunk.js": "/blog/static/js/787.f587e8d5.chunk.js",
     "static/media/16Nov2021-ubuntu-dualboot.png": "/blog/static/media/16Nov2021-ubuntu-dualboot.832da43df3775a8e39f4.png",
     "static/media/test-img.png": "/blog/static/media/test-img.29d43abc740c6fb52aae.png",
+    "static/media/20Aug2022-State-management-with-ContextAPI-in-React-1.jpg": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React-1.07d405f1fbc54a0818f0.jpg",
+    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.png": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.8d1a1b0d36d22a6bcad5.png",
     "static/media/test.md": "/blog/static/media/test.099cd86e1751f9e01919.md",
     "static/media/13-08-22_Try-to-Post.md": "/blog/static/media/13-08-22_Try-to-Post.0ec495b4ba4c7f520911.md",
     "static/media/16Nov2021-ubuntu-dualboot.md": "/blog/static/media/16Nov2021-ubuntu-dualboot.94fe8607f6aa632005e7.md",
+    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.0df42a8b629e53694960.md",
     "index.html": "/blog/index.html",
-    "main.830483cd.css.map": "/blog/static/css/main.830483cd.css.map",
-    "main.3a90fc28.js.map": "/blog/static/js/main.3a90fc28.js.map",
+    "main.dceaa7c6.css.map": "/blog/static/css/main.dceaa7c6.css.map",
+    "main.8b2b6649.js.map": "/blog/static/js/main.8b2b6649.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.830483cd.css",
-    "static/js/main.3a90fc28.js"
+    "static/css/main.dceaa7c6.css",
+    "static/js/main.8b2b6649.js"
   ]
 }
