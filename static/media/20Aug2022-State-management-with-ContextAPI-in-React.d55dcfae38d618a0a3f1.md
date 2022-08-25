@@ -35,7 +35,7 @@ To check its implementation lets use an example of providing user data throughou
     import { useState } from "react";
     import UserContext from "./UserContext";
 
-    userData={
+    const userData={
         "name":"Anshuman",
         "age":19,
         "color":"blue"
@@ -43,7 +43,7 @@ To check its implementation lets use an example of providing user data throughou
 
     const UserState=({children})={
     
-        const [user,setUser]=setState(userData);
+        const [user,setUser]=useState(userData);
 
         function happyBirthDay(){
             setUser(user.age = user.age+1)
