@@ -27,7 +27,8 @@ const Code = ({ children, language, code,isDark}) => {
   }
 
   const setCopied = () => {
-    setIsCopied(true)
+    setIsCopied(true);
+    // navigator.clipboard.writeText(children);
     setTimeout(() => { setIsCopied(false) }, 1000);
   }
  
@@ -38,7 +39,7 @@ const Code = ({ children, language, code,isDark}) => {
           {isDarkC ? <MoonIcon /> : <SunIcon />}
         </button>
 
-        <CopyToClipboard text={children}>
+        <CopyToClipboard text={code.length===0?children[0]:code}>
           <button onClick={() => setCopied()}>
             {isCopied
               ? <span title="Copied!"><PasteIcon /></span>
