@@ -14,8 +14,8 @@ function App() {
   const ctx = {
     theme: [isDark, setIsDark],
   };
-  return (
-      <BrowserRouter>
+  return (<div>
+    <BrowserRouter>
       <div className={isDark===true?"App-dark":"App"}>
       <Navbar ctx={ctx}/>
       <Routes>
@@ -26,6 +26,8 @@ function App() {
 
     </div>
     </BrowserRouter>
+  </div>
+      
 
   );
 }
