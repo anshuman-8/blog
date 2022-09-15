@@ -1,5 +1,6 @@
 import React from "react";
 // import { TopIcon } from "../Assets/icons";
+import {Link} from "react-router-dom";
 import "./blog.css";
 import Post from "./Post";
 import ReadingBar from "./ReadingBar";
@@ -36,7 +37,11 @@ const Blog = ({ctx}) => {
     {document.documentElement.scrollWidth>=700?<ReadingBar/>:<></>}
     <div className={isDark ? "splitscreen-dark" : "splitscreen"}>
       
-      <div className={isDark ? "left-split-dark" : "left-split"}></div>
+      <div className={isDark ? "left-split-dark" : "left-split"}>
+        {document.documentElement.scrollWidth>=700?<Link to="/blog" className={isDark?"backBtn-dark my-5":"backBtn"}>
+         back
+        </Link>:<></>}
+      </div>
       <div className={isDark ? "right-split-dark" : "right-split"}>
         {/* <Post key={post.id} ctx={props.ctx} post={post}/> */}
         <Post ctx={ctx} post={post} />

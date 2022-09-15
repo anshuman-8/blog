@@ -11,7 +11,7 @@ const Navbar = (props) => {
         <nav className={isDark===true?"navbar navbar-expand-lg bg-dark navbar-dark":"navbar navbar-expand-lg bg-light"} >
           <div className="container-fluid">
             <Link className="navbar-brand mx-5" to="/blog">
-              Anshuman's Blog
+              <a title="Anshuman Swain portfolio" href="http://anshuman-8.github.io" className={isDark?"text-white":"text-dark"}>Anshuman</a>'s Blog
             </Link>
             <button
               className="navbar-toggler"
@@ -46,7 +46,7 @@ const Navbar = (props) => {
               : <span title="Light Mode"><SunIcon /></span>
             }
           </button>  
-          <a href="https://github.com/anshuman-8" target="_blank" className="btn" rel="noreferrer"><span><GitHubIcon/></span></a> 
+          <a href="https://github.com/anshuman-8" title="My GitHub" target="_blank" className="btn" rel="noreferrer"><span><GitHubIcon/></span></a> 
                 </li>
               </ul>
             </div>

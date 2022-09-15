@@ -156,11 +156,13 @@ body{
     .left-split {
     width: 20%;
     /* background-color: cadetblue; */
+    padding: 0px 0vw 2vw 0px;
     }
     
     .left-split-dark {
       width: 20%;
       /* background-color: rgb(184, 226, 228); */
+      padding: 0px 0vw 2vw 0px;
     }
 
     .card {
@@ -238,3 +240,12 @@ body{
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.backBtn-dark{
+  
+  margin: 100px 2px;
+  padding: 0rem 10rem;
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+  font-size: 18px; 
+}
