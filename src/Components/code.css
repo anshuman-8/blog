@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Neucha&family=Raleway&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.code {
+  position: relative;
+  font-size: 70%;
+  margin: 0px 20px;
+}
+
+.code pre {
+  padding-top: 2rem !important;
+  transition: .3s ease all;
+}
+
+.code__icons {
+  position: absolute;
+  top: 1px;
+  right: 18px;
+  z-index: 1;
+}
+
+.code__icons button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+

@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
-import "./blog.css";
 import Markdown from "markdown-to-jsx";
 import Code from "./Code";
 import ImageHandler from "./ImageHandler";
 import Space from "./Space";
 import Note from "./Note";
+import {Link} from "react-router-dom";
+import { LeftArrow } from "../Assets/icons"
 import BlogHead from "./BlogHead";
 import BounceLoader from "react-spinners/BounceLoader";
 
@@ -32,6 +33,7 @@ const Post = (props) => {
           .catch((err) => console.log(err))
       );
   }, []);
+
   return (
     <div>
       {postContent === "" ? (
@@ -42,10 +44,14 @@ const Post = (props) => {
           size={90}
         />
       ) : (
-        <div className={isDark ? "article-wrapper-dark" : "article-wrapper"}>
+        <div className= "bg-[#8bc2c2] dark:bg-[#012b2b] my-3 md:my-4 mx-2 p-6 md:py-20 rounded-xl md:mx-8 md:px-36 shadow-xl">
           <article>
+
+          <Link to="/blog" className='relative top-2 left-4 flex flex-row items-center space-x-2 hover:underline'>
+            <LeftArrow/><span className="">back</span></Link>
+
             <BlogHead post={post} ctx={props.ctx} />
-            <main className="prose-xl">
+            <main className="prose-base md:prose-xl">
               <Markdown
                 options={{
                   overrides: {

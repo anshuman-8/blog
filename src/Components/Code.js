@@ -5,7 +5,7 @@ import {python,javascript,bash,jsx} from 'react-syntax-highlighter/dist/esm/lang
 import { materialDark, materialLight } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 import { CopyIcon, PasteIcon, SunIcon, MoonIcon } from "../Assets/icons"
-import "./blog.css";
+import "./code.css";
 
 const Code = ({ children, language, code,isDark}) => {
   const [isCopied, setIsCopied] = useState(false)
