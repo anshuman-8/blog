@@ -45,7 +45,7 @@ const Post = (props) => {
         <div className={isDark ? "article-wrapper-dark" : "article-wrapper"}>
           <article>
             <BlogHead post={post} ctx={props.ctx} />
-            <main>
+            <main className="prose-xl">
               <Markdown
                 options={{
                   overrides: {

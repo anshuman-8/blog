@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Space({p}) {
-    const cn=`py-${p}`;
+export default function Space({h}) {
+    const cn=`h-${h}`;
     // console.log(cn)
   return (
     <div className={cn}>

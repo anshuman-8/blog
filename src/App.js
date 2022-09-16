@@ -1,4 +1,3 @@
-import "./App.css";
 import Blog from "./Components/Blog";
 import Navbar from "./Components/Navbar";
 import { useState} from "react";
@@ -14,16 +13,16 @@ function App() {
   const ctx = {
     theme: [isDark, setIsDark],
   };
-  return (<div>
+
+  return (<div className={isDark?"dark":""}>
     <BrowserRouter>
-      <div className={isDark===true?"App-dark":"App"}>
-      <Navbar ctx={ctx}/>
+      <div className="bg-gray-200 dark:bg-teal-900 dark:text-white">
+      <Navbar isDark={isDark} setIsDark={setIsDark}/>
       <Routes>
         <Route exact path="/blog" element={ <Home ctx={ctx}/>}/>
         <Route exact path='/blog/:id' element={<Blog  ctx={ctx}/>}/>
         <Route exact path="/blog/contact" element={<Contact/>}/>
       </Routes>
-
     </div>
     </BrowserRouter>
   </div>

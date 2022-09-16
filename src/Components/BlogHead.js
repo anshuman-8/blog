@@ -7,15 +7,15 @@ export default function BlogHead(props) {
     const ctx=props.ctx;
   return (
     <header>
-    <div className="article__cover">
-      <div className="fs-1 fw-bold text-center my-5" style={ctx.theme.isDark?{color:"#cfd1d1",fontWeight:"800"}:{}}>{post.title}</div>
+    <div className="my-5 flex-col">
+      <div className="text-5xl font-bold text-center mt-8 text-gray-800 dark:text-gray-200 mb-14 leading-relaxed" >{post.title}</div>
 
-      <div className="row justify-content-md-start mb-3 mx-2 ">
-       <div className='col-1' style={{width: "4.6%"}}> <TagIcon /></div>
-      <div className='col-10'>{post.tags.map((tag)=>{return <span key={tag} className="badge bg-secondary mx-1">{tag}</span>})}</div>
+      <div className="flex flex-row my-5 align-middle">
+       <div> <TagIcon/></div>
+      <div className='ml-3'>{post.tags.map((tag)=>{return <span key={tag} className="bg-slate-600 text-slate-200 rounded-xl text-sm px-3 py-2 mx-1">{tag}</span>})}</div>
       </div>
 
-      <div className="row justify-content-md-start mx-2">
+      <div className="flex flex-row my-5 mb-8">
         <div className='col-1' style={{width: "4.7%"}}>
         <CalenderIcon/>
         </div>
@@ -25,6 +25,7 @@ export default function BlogHead(props) {
       <img
         src={require(`../Assets/images/${post.cover}`)}
         alt="my-cover"
+        className='mb-10 shadow-2xl'
       />
      
     </div>
