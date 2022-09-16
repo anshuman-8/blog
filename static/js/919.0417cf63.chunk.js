@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[919],{7919:function(e,s,t){e.exports=t.p+"static/media/best_software.01284980ebf1f3ee6f32.md"}}]);

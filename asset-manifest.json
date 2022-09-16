@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.dceaa7c6.css",
-    "main.js": "/blog/static/js/main.993413b4.js",
+    "main.css": "/blog/static/css/main.a57bac6c.css",
+    "main.js": "/blog/static/js/main.ce50fe1a.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
     "static/js/959.0bd76ed5.chunk.js": "/blog/static/js/959.0bd76ed5.chunk.js",
-    "static/js/497.e355af6c.chunk.js": "/blog/static/js/497.e355af6c.chunk.js",
+    "static/js/497.bdd8e2b6.chunk.js": "/blog/static/js/497.bdd8e2b6.chunk.js",
+    "static/js/919.0417cf63.chunk.js": "/blog/static/js/919.0417cf63.chunk.js",
     "static/js/566.4aa3b5aa.chunk.js": "/blog/static/js/566.4aa3b5aa.chunk.js",
     "static/js/787.f587e8d5.chunk.js": "/blog/static/js/787.f587e8d5.chunk.js",
     "static/media/16Nov2021-ubuntu-dualboot.png": "/blog/static/media/16Nov2021-ubuntu-dualboot.832da43df3775a8e39f4.png",
@@ -14,14 +15,15 @@
     "static/media/test.md": "/blog/static/media/test.099cd86e1751f9e01919.md",
     "static/media/13-08-22_Try-to-Post.md": "/blog/static/media/13-08-22_Try-to-Post.0ec495b4ba4c7f520911.md",
     "static/media/16Nov2021-ubuntu-dualboot.md": "/blog/static/media/16Nov2021-ubuntu-dualboot.94fe8607f6aa632005e7.md",
-    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.d55dcfae38d618a0a3f1.md",
+    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.a747013b97e5729bb338.md",
     "index.html": "/blog/index.html",
-    "main.dceaa7c6.css.map": "/blog/static/css/main.dceaa7c6.css.map",
-    "main.993413b4.js.map": "/blog/static/js/main.993413b4.js.map",
+    "static/media/best_software.md": "/blog/static/media/best_software.01284980ebf1f3ee6f32.md",
+    "main.a57bac6c.css.map": "/blog/static/css/main.a57bac6c.css.map",
+    "main.ce50fe1a.js.map": "/blog/static/js/main.ce50fe1a.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dceaa7c6.css",
-    "static/js/main.993413b4.js"
+    "static/css/main.a57bac6c.css",
+    "static/js/main.ce50fe1a.js"
   ]
 }
