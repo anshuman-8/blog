@@ -109,7 +109,8 @@ To check its implementation lets use an example of providing user data throughou
 <Note>
 The code and file structure that I have kept, i.e. having `UserState` and `UserContext` in different files inside a Context folder, is a standard convention to make code easier to understand. You need not follow it.
 </Note>
-<Space  h={20}/>
+
+<Space  h={12}/>
 
 <ImageHandler src="20Aug2022-State-management-with-ContextAPI-in-React-1.jpg" alt="Smash Prop drills" h={} w={} />
 <center>You just killed all Prop drillings 🥳</center>

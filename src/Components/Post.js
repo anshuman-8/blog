@@ -50,8 +50,8 @@ const Post = (props) => {
           <Link to="/blog" className='relative top-2 left-4 flex flex-row items-center space-x-2 hover:underline'>
             <LeftArrow/><span className="">back</span></Link>
 
-            <BlogHead post={post} ctx={props.ctx} />
-            <main className="prose-base md:prose-xl">
+            <BlogHead post={post} />
+            <main className="prose-base md:prose-xl md:prose-slate">
               <Markdown
                 options={{
                   overrides: {
@@ -63,15 +63,9 @@ const Post = (props) => {
                     },
                     ImageHandler: {
                       component: ImageHandler,
-                      props: {
-                        isDark,
-                      },
                     },
                     Note: {
                       component: Note,
-                      props: {
-                        isDark,
-                      },
                     },
                     Space: {
                       component: Space,

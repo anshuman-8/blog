@@ -6,15 +6,15 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className=" ">
-    <div className=" mx-5 md:mx-20" style={{height:"100vh"}} >
-      <h2 className="md:text-3xl text-lg my-10 mx-10">All my blogs</h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 ">
-        {data.map((item) => {
-          return (
+    <div className=" mx-5 md:mx-20">
+      <h2 className="md:text-3xl text-xl mx-10 my-2 lg:my-10">All my blogs</h2>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:mx-12 justify-center">
+        {data.map((item) => 
+          (
             <div key={item.id} className="flex flex-col justify-start cursor-pointer  mx-5 md:mx-10 max-w-lg border border-slate-400 rounded-xl dark:bg-slate-200/30 bg-teal-500/5 hover:scale-110 hover:shadow-xl duration-300 my-5 min-w-[250px]" onClick={()=>navigate(`/blog/${item.id}`)} >
                 <img
                   src={require(`../Assets/images/${item.cover}`)}
-                  className="w-[450px] rounded-xl mx-auto"  
+                  className="w-[435px] rounded-xl mx-auto"  
                   alt="Cover"
                 />
                 <div className="card-body  mx-4  ">
@@ -23,8 +23,8 @@ const Home = () => {
                   <p className="text-lg font-semibold dark:text-slate-200 text-slate-700 mb-5">{item.description}</p>
                 </div> 
             </div>
-          );
-        })}
+          )
+        )}
       </div>
     </div>
     </div>

@@ -44,6 +44,7 @@ const scrollHeight = () => {
   // store percentage in state
   setHeight(percent);
 };
+
   return (
     <div >
       {/* {window.innerHeight()<='750px'?} */}
