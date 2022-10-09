@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.a57bac6c.css",
-    "main.js": "/blog/static/js/main.ce50fe1a.js",
+    "main.css": "/blog/static/css/main.a9c53b84.css",
+    "main.js": "/blog/static/js/main.0ea61e5e.js",
+    "static/js/350.44720d67.chunk.js": "/blog/static/js/350.44720d67.chunk.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
     "static/js/959.0bd76ed5.chunk.js": "/blog/static/js/959.0bd76ed5.chunk.js",
-    "static/js/497.bdd8e2b6.chunk.js": "/blog/static/js/497.bdd8e2b6.chunk.js",
+    "static/js/497.b5a3a292.chunk.js": "/blog/static/js/497.b5a3a292.chunk.js",
     "static/js/919.0417cf63.chunk.js": "/blog/static/js/919.0417cf63.chunk.js",
     "static/js/566.4aa3b5aa.chunk.js": "/blog/static/js/566.4aa3b5aa.chunk.js",
     "static/js/787.f587e8d5.chunk.js": "/blog/static/js/787.f587e8d5.chunk.js",
@@ -12,18 +13,20 @@
     "static/media/test-img.png": "/blog/static/media/test-img.29d43abc740c6fb52aae.png",
     "static/media/20Aug2022-State-management-with-ContextAPI-in-React-1.jpg": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React-1.07d405f1fbc54a0818f0.jpg",
     "static/media/20Aug2022-State-management-with-ContextAPI-in-React.png": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.8d1a1b0d36d22a6bcad5.png",
+    "static/media/08Oct2022-Data-fetching-in-NextJS.png": "/blog/static/media/08Oct2022-Data-fetching-in-NextJS.b2dc48a515a8a70ea466.png",
     "static/media/test.md": "/blog/static/media/test.099cd86e1751f9e01919.md",
     "static/media/13-08-22_Try-to-Post.md": "/blog/static/media/13-08-22_Try-to-Post.0ec495b4ba4c7f520911.md",
     "static/media/16Nov2021-ubuntu-dualboot.md": "/blog/static/media/16Nov2021-ubuntu-dualboot.94fe8607f6aa632005e7.md",
-    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.a747013b97e5729bb338.md",
+    "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.51fbe27097ecff5b58ed.md",
     "index.html": "/blog/index.html",
     "static/media/best_software.md": "/blog/static/media/best_software.01284980ebf1f3ee6f32.md",
-    "main.a57bac6c.css.map": "/blog/static/css/main.a57bac6c.css.map",
-    "main.ce50fe1a.js.map": "/blog/static/js/main.ce50fe1a.js.map",
+    "static/media/08Oct2022-Data-fetching-in-NextJS.md": "/blog/static/media/08Oct2022-Data-fetching-in-NextJS.dff9a2f11dbe841391ac.md",
+    "main.a9c53b84.css.map": "/blog/static/css/main.a9c53b84.css.map",
+    "main.0ea61e5e.js.map": "/blog/static/js/main.0ea61e5e.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a57bac6c.css",
-    "static/js/main.ce50fe1a.js"
+    "static/css/main.a9c53b84.css",
+    "static/js/main.0ea61e5e.js"
   ]
 }

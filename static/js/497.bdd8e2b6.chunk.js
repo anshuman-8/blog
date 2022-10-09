@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[497],{8497:function(e,t,a){e.exports=a.p+"static/media/20Aug2022-State-management-with-ContextAPI-in-React.a747013b97e5729bb338.md"}}]);
