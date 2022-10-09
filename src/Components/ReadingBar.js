@@ -1,10 +1,10 @@
 
-import React,{useState, useEffect} from 'react'
 import styled from "styled-components";
+import React,{useState, useEffect} from 'react'
 
 const Bar = styled.div`
 position: fixed;
-margin: 8vw 13vw;
+margin: 3vw 13vw;
 border-radius: 10px;
 width: 3px;
 z-index: 9;
@@ -18,8 +18,8 @@ background: linear-gradient(
 
 const FullBar = styled.div`
 position: fixed;
-margin: 8vw 13vw;
-height: 60%;
+margin: 3vw 13vw;
+height: 50%;
 border-radius: 10px;
 width: 3px;
 background-color:#505a5c;
@@ -40,7 +40,7 @@ const scrollHeight = () => {
   var el = document.documentElement,
     ScrollTop = el.scrollTop || document.body.scrollTop,
     ScrollHeight = el.scrollHeight || document.body.scrollHeight;
-  var percent = (ScrollTop / (ScrollHeight - el.clientHeight)) * 60;
+  var percent = (ScrollTop / (ScrollHeight - el.clientHeight)) * 50;
   // store percentage in state
   setHeight(percent);
 };

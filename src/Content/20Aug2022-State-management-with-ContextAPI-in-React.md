@@ -41,7 +41,7 @@ To check its implementation lets use an example of providing user data throughou
         "color":"blue"
     }
 
-    const UserState=({children})={
+    const UserState=({children})=&gt;{
     
         const [user,setUser]=useState(userData);
 

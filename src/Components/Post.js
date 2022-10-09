@@ -1,12 +1,12 @@
-import { useState, useEffect } from "react";
-import Markdown from "markdown-to-jsx";
 import Code from "./Code";
-import ImageHandler from "./ImageHandler";
-import Space from "./Space";
 import Note from "./Note";
-import {Link} from "react-router-dom";
-import { LeftArrow } from "../Assets/icons"
+import Space from "./Space";
 import BlogHead from "./BlogHead";
+import {Link} from "react-router-dom";
+import Markdown from "markdown-to-jsx";
+import ImageHandler from "./ImageHandler";
+import { LeftArrow } from "../Assets/icons"
+import { useState, useEffect } from "react";
 import BounceLoader from "react-spinners/BounceLoader";
 
 const Post = (props) => {
@@ -44,7 +44,7 @@ const Post = (props) => {
           size={90}
         />
       ) : (
-        <div className= "bg-[#8bc2c2] dark:bg-[#012b2b] my-3 md:my-4 mx-2 p-6 md:py-20 rounded-xl md:mx-8 md:px-36 shadow-xl">
+        <div className= "bg-[#8bc2c2] dark:bg-[#012b2b] my-2 md:my-3 mx-2 p-6 md:py-20 md:pb-28 rounded-xl md:mx-6 md:px-36 shadow-xl">
           <article>
 
           <Link to="/blog" className='relative top-2 left-4 flex flex-row items-center space-x-2 hover:underline'>
