@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[350],{3350:function(e,t,c){e.exports=c.p+"static/media/08Oct2022-Data-fetching-in-NextJS.c0904b295317ac74a7e6.md"}}]);

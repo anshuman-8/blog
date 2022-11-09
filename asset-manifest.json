@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.a9c53b84.css",
-    "main.js": "/blog/static/js/main.0ea61e5e.js",
-    "static/js/350.44720d67.chunk.js": "/blog/static/js/350.44720d67.chunk.js",
+    "main.css": "/blog/static/css/main.13b970a9.css",
+    "main.js": "/blog/static/js/main.32bb9e9d.js",
+    "static/js/350.6bd5b0be.chunk.js": "/blog/static/js/350.6bd5b0be.chunk.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
     "static/js/959.0bd76ed5.chunk.js": "/blog/static/js/959.0bd76ed5.chunk.js",
     "static/js/497.b5a3a292.chunk.js": "/blog/static/js/497.b5a3a292.chunk.js",
@@ -18,15 +18,15 @@
     "static/media/13-08-22_Try-to-Post.md": "/blog/static/media/13-08-22_Try-to-Post.0ec495b4ba4c7f520911.md",
     "static/media/16Nov2021-ubuntu-dualboot.md": "/blog/static/media/16Nov2021-ubuntu-dualboot.94fe8607f6aa632005e7.md",
     "static/media/20Aug2022-State-management-with-ContextAPI-in-React.md": "/blog/static/media/20Aug2022-State-management-with-ContextAPI-in-React.51fbe27097ecff5b58ed.md",
+    "static/media/08Oct2022-Data-fetching-in-NextJS.md": "/blog/static/media/08Oct2022-Data-fetching-in-NextJS.c0904b295317ac74a7e6.md",
     "index.html": "/blog/index.html",
     "static/media/best_software.md": "/blog/static/media/best_software.01284980ebf1f3ee6f32.md",
-    "static/media/08Oct2022-Data-fetching-in-NextJS.md": "/blog/static/media/08Oct2022-Data-fetching-in-NextJS.dff9a2f11dbe841391ac.md",
-    "main.a9c53b84.css.map": "/blog/static/css/main.a9c53b84.css.map",
-    "main.0ea61e5e.js.map": "/blog/static/js/main.0ea61e5e.js.map",
+    "main.13b970a9.css.map": "/blog/static/css/main.13b970a9.css.map",
+    "main.32bb9e9d.js.map": "/blog/static/js/main.32bb9e9d.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9c53b84.css",
-    "static/js/main.0ea61e5e.js"
+    "static/css/main.13b970a9.css",
+    "static/js/main.32bb9e9d.js"
   ]
 }
