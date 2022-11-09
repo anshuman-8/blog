@@ -9,9 +9,11 @@ const Navbar = (props) => {
     
       <div className="dark:bg-teal-900">
           <div className="flex flex-row justify-between items-center px-3 py-4 mx-5 md:mx-20">
-            <Link className=" text-xl md:text-2xl" to="/blog">
-              <a className="text-xl md:text-2xl font-semibold hover:text-blue-600" title="Anshuman Swain portfolio" href="http://anshuman-8.github.io" >Anshuman</a>'s Blog
+            <div className="text-xl md:text-2xl"> <a className="font-semibold hover:text-blue-600" title="Anshuman Swain's portfolio" href="http://anshuman-8.github.io" >Anshuman</a>
+            <Link to="/blog">
+             's Blog
             </Link>
+            </div>
             
               <ul className="flex flex-row justify-evenly" role="search">
                 <li className="hidden md:px-4 md:inline-block">

@@ -19,7 +19,7 @@ const Post = (props) => {
     top: "40vh",
     left: "35vw",
     margin: "10",
-    borderColor: `${isDark ? "#dae6e2" : "#11b880"}`,
+    borderColor: `${isDark ? "#faf5f5" : "#11b880"}`,
   };
 
   useEffect(() => {

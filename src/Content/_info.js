@@ -9,7 +9,7 @@ const data = [
     cover: "20Aug2022-State-management-with-ContextAPI-in-React.png",
     contentsTitle: [
       ["what-is-context-api-","What is Context API ?"],
-      ["how-to-use-context-api-","how to use Context API ?"]
+      ["how-to-use-context-api-","How to use Context API ?"]
     ],
     path: "20Aug2022-State-management-with-ContextAPI-in-React",
   },

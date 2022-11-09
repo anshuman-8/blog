@@ -22,7 +22,7 @@ const Blog = ({ctx}) => {
       <ReadingBar/>
       </div>{/* // left */}
 
-      <div className=" w-full md:w-[90%] md:my-2.5 md:py-3 md:pl-[20vw] overflow-y-auto mx-auto">
+      <div className=" w-full md:w-[90%] md:my-2.5 md:pl-[20vw]  mx-auto">
         <Post ctx={ctx} post={post} />
       </div> {/* right */}
 
