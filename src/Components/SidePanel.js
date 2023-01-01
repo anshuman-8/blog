@@ -2,12 +2,11 @@ import React from 'react'
 
 
 const SidePanel = (props) => {
-  // const id = props.post.id;
   const title = props.post.title;
   const titles=props.post.contentsTitle;
   
   return (
-    <div className='bg-slate-400/20 overflow-y-auto h-36 mt-10 ml-10 rounded-lg px-3 pl-5 py-3' title="Contents">
+    <div className='bg-slate-400/20 overflow-y-auto h-36 mt-10 ml-10 rounded-lg px-3 pl-5 py-3 backdrop-blur-md' title="Contents">
       <a className='font-semibold hover:underline mb-3' href="#" >
         {title}
       </a>

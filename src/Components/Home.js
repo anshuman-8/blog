@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className=" ">
     <div className=" mx-5 md:mx-20">
-      <h2 className="md:text-3xl text-xl mx-10 my-2 lg:my-10">All my blogs</h2>
+      <h2 className="md:text-3xl text-xl mx-10 my-2 lg:my-10 md:px-14">All my blogs</h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:mx-12 justify-center">
         {data.map((item) => 
           (
@@ -20,7 +20,7 @@ const Home = () => {
                 <div className="card-body  mx-4 ">
                   <h3 className="text-2xl font-bold my-2">{item.title}</h3>
                   <h6 className="space-x-3 my-3 text-sm ">{item.tags.map((tag)=>{return <span key={tag} className="bg-slate-400 my-2 break-words px-2 py-1 rounded-xl">{tag}</span>})}</h6>
-                  <p className="text-lg font-semibold dark:text-slate-200 text-slate-700 mb-5">{item.description}</p>
+                  <p className=" dark:text-slate-200 text-slate-700 mb-5 font-light text-base">{item.description}</p>
                 </div> 
             </div>
           )

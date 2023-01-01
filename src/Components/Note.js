@@ -4,7 +4,7 @@ const Note = ({children}) => {
   return (
     <div className='opacity-75 prose-h5:text-3xl '>
       <h5 className='px-3  pt-2'>Note: </h5>
-      <p className='border-l-indigo-700 border-4 border-transparent italic mx-3 px-4'>{children}</p>
+      <p className='border-l-indigo-700 border-4 border-transparent italic mx-3 px-4 text-base md:text-xl'>{children}</p>
     </div>
   )
 }

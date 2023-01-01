@@ -44,11 +44,11 @@ const Post = (props) => {
           size={90}
         />
       ) : (
-        <div className= "bg-[#8bc2c2] dark:bg-[#012b2b] my-2 md:my-3 mx-2 p-6 md:py-20 md:pb-28 rounded-xl md:mx-6 md:px-36 shadow-xl">
+        <div className= "bg-[#8bc2c2] dark:bg-[#012b2b] my-2 md:my-3 mx-2 p-6 md:py-20 md:pb-28 rounded-xl md:mx-6 md:px-36 shadow-xl min-h-screen">
           <article>
 
-          <Link to="/blog" className='relative top-2 left-4 flex flex-row items-center space-x-2 hover:underline'>
-            <LeftArrow/><span className="">back</span></Link>
+          <Link to="/blog" className='relative top-2 left-4 flex flex-row items-center space-x-2 text-lg hover:underline'>
+            <LeftArrow className=""/><span className="">back</span></Link>
 
             <BlogHead post={post} />
             <main className="prose-base md:prose-xl md:prose-slate">
