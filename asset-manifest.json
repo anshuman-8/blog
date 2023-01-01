@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.13b970a9.css",
-    "main.js": "/blog/static/js/main.32bb9e9d.js",
+    "main.css": "/blog/static/css/main.2349f650.css",
+    "main.js": "/blog/static/js/main.fa091196.js",
     "static/js/350.6bd5b0be.chunk.js": "/blog/static/js/350.6bd5b0be.chunk.js",
     "static/js/246.0504b108.chunk.js": "/blog/static/js/246.0504b108.chunk.js",
     "static/js/959.0bd76ed5.chunk.js": "/blog/static/js/959.0bd76ed5.chunk.js",
@@ -21,12 +21,12 @@
     "static/media/08Oct2022-Data-fetching-in-NextJS.md": "/blog/static/media/08Oct2022-Data-fetching-in-NextJS.c0904b295317ac74a7e6.md",
     "index.html": "/blog/index.html",
     "static/media/best_software.md": "/blog/static/media/best_software.01284980ebf1f3ee6f32.md",
-    "main.13b970a9.css.map": "/blog/static/css/main.13b970a9.css.map",
-    "main.32bb9e9d.js.map": "/blog/static/js/main.32bb9e9d.js.map",
+    "main.2349f650.css.map": "/blog/static/css/main.2349f650.css.map",
+    "main.fa091196.js.map": "/blog/static/js/main.fa091196.js.map",
     "787.f587e8d5.chunk.js.map": "/blog/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b970a9.css",
-    "static/js/main.32bb9e9d.js"
+    "static/css/main.2349f650.css",
+    "static/js/main.fa091196.js"
   ]
 }
